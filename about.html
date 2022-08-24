@@ -133,6 +133,7 @@ body, html {
       <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
     <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
       <i class="fa fa-bars"></i>
     </a>
@@ -149,129 +150,34 @@ body, html {
   <a href="download.html" onclick="w3_close()" class="w3-bar-item w3-button">Downloads</a>
   <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
 </nav>
-
-<!-- Header with logo and theme image -->
+    <!-- Header with logo and theme image -->
 <header>
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-  <div class="numbertext">1 / 12</div>
-  <img src="1.jpg" style="width:100%">
-  <div class="text"; style="background-color:blue">Awarding Reporter Mr. Ganesh Ghimire on 7th AGM</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 12</div>
-  <img src="2.jpg" style="width:100%">
-  <div class="text"; style="background-color:blue">Chief Guest Deputy Mayor Ms Bishnu Kumari Limbu Dahal on 7th AGM</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 12</div>
-  <img src="3.jpg" style="width:100%">
-  <div class="text"; style="background-color:blue">Awarding Cash to Single Woman for her childerns' Education by Funder Chairperson on 7th AGM</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">4 / 12</div>
-  <img src="4.jpg" style="width:100%">
-  <div class="text"; style="background-color:blue">Awarding DPO, Ilam SP. Mahendra Shrestha on 7th AGM</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">5 / 12</div>
-  <img src="5.jpg" style="width:100%">
-  <div class="text"; style="background-color:blue">Antidrug Awareness Program on Pragya Sadan Boarding School, Ilam</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">6 / 12</div>
-  <img src="6.jpg" style="width:100%">
-  <div class="text"; style="background-color:blue">Child Right Awareness Program on Sangrumba Secondary School, Ilam</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">7 / 12</div>
-  <img src="7.jpg" style="width:100%">
-  <div class="text"; style="background-color:blue">Child Right Awareness Program on Sangrumba Secondary School, Ilam</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">8 / 12</div>
-  <img src="8.jpg" style="width:100%">
-  <div class="text"; style="background-color:blue">Antidrug Awareness Program on Pragya Sadan Boarding School, Ilam</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">9 / 12</div>
-  <img src="9.jpg" style="width:100%">
-  <div class="text"; style="background-color:blue">Child Right Awareness Program on Purna Smarak Secondary School, Ilam</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">10 / 12</div>
-  <img src="10.jpg" style="width:100%">
-  <div class="text"; style="background-color:blue">Child Right Awareness Program on Purna Smarak Secondary School, Ilam</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">11 / 12</div>
-  <img src="11.jpg" style="width:100%">
-  <div class="text"; style="background-color:blue">Addressing 7th AGM by DPO, Ilam SP. Mahendra Shrestha</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">12 / 12</div>
-  <img src="12.jpg" style="width:100%">
-  <div class="text"; style="background-color:blue">Child Right Awareness Program on Sangrumba Secondary School, Ilam</div>
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">❮</a>
-<a class="next" onclick="plusSlides(1)">❯</a>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span>
-  <span class="dot" onclick="currentSlide(4)"></span>
-  <span class="dot" onclick="currentSlide(5)"></span>
-  <span class="dot" onclick="currentSlide(6)"></span>
-  <span class="dot" onclick="currentSlide(7)"></span>
-  <span class="dot" onclick="currentSlide(8)"></span>
-  <span class="dot" onclick="currentSlide(9)"></span>
-  <span class="dot" onclick="currentSlide(10)"></span>
-  <span class="dot" onclick="currentSlide(11)"></span>
-  <span class="dot" onclick="currentSlide(12)"></span> 
-</div>
-
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 2000); // Change image every 2 seconds
-}
-</script>
+<div class="w3-container header-name" id="home">
+    <div class="w3-row-padding w3-grayscale" style="padding:32px">
+    <div class="w3-quarter">
+      <div class="w3-card" align="center">
+        <img src="logo.png" alt="JAGRITI" style="width:70%">
+        </div>
     </div>
-    <div class="w3-padding 12px">
+    <div class="w3-threequarter">
+      <div class="w3-card">
+    <h3 class="w3-center"; style="color:blue";><strong>JAGRITI NEPAL, ILAM</strong></h3>
+    <h2 class="w3-center"; style="color:red";>जागृति नेपाल, इलाम</h2>
+  <p class="w3-center w3-large">Ilam -7 (Malapath), Ilam</p>
+      </div>
+    </div>
+</div>
+    </div>
+    </div>
+  </header>
+<div class="w3-padding 12px">
       <h3 style="color:blue">Background:</h3>
       <style>
 #more {display: none;}
 </style>
       <p align="justify">Jagriti Nepal is a non-profit nongovernmental organization self-motivated to gear up sustainable community development with social cohesion, goodwill and economic prosperity. Jagriti Nepal motivates social changes by mobilization of micro-resources including youth forces. It is registered as nongovernmental organization at District Administration Office; Ilam with registration number 822 dated 12 April 2012 and affiliated with Social Welfare Council of Federal Government of Nepal. Promotion of environment-friendly sustainable community development by facilitating and collaborating various community organizations and interest groups is one of the principal objectives of Jagriti Nepal. Jagriti Nepal pursues local capacity building in developmental issues, rights protection, and building cohesive active community life, and promoting access to justice to realize social justice as other key objectives.</p><span id="dots"></span><span id="more">
       <p align="justify">The conventional approach of planning and development efforts bottlenecks to reach in the targeted community and therefore an NGO can play a complementary role as intermediary between people and government or other donors agency.</p>
-      <ul style="list-style-type:disc">
+      <ul style="list-style-type:disc";>
         <li>Community development is not one-time slot of effort; rather it needs continues facilitation, promotion and encouragement to people for self-realization through Techinicial, Vocational, Eductional, Training and media house or social mobilization.</li>
       <li>Development projects cannot sustain without people participation and development efforts should aim at building the capacity of local people whom in real sense need development project.</li></ul>
     </span></p>
@@ -296,47 +202,19 @@ function carousel() {
     </div>
 </div>
 
-<!-- Team Section -->
-<div class="w3-container" style="padding: 16px" id="team">
-  <h3 class="w3-center"; style="color:blue";>Our Dedicated Team Members</h3>
-  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="Founder.jpg" alt="Advisor" style="width:100%">
-        <div class="w3-container">
-          <h4 style="text-align: center;">Madhav Bhattarai</h4>
-          <p style="text-align: center;">Founder Chairperson</p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="Chairperson.jpg" alt="" style="width:100%">
-        <div class="w3-container">
-          <h4 style="text-align: center;">Narendra Khadka</h4>
-          <p style="text-align: center;">Chairperson</p>
-          </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="Secretary.jpg" alt="Account Convenior" style="width:100%">
-        <div class="w3-container">
-          <h4 style="text-align: center;">Gopal Poudyal</h4>
-          <p style="text-align: center;">Secretary</p>
-          </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="Treasurer.jpg" alt="Manager" style="width:100%">
-        <div class="w3-container">
-          <h4 style="text-align: center;">Bhuwan Subedi</h4>
-          <p style="text-align: center;">Treasurer</p>
-          </div>
-      </div>
-    </div>
-    </div>
+<!-- Objectives Section -->
+<div class="w3-container" style="padding: 16px" id="objectives">
+  <h3 class="w3-center"; style="color:blue";>Objectives</h3>
+  <ul style="list-style-type:disc;">
+        <li>Promotion of environment-friendly sustainable community development by facilitating and collaborating various community organizations and interest groups;</li>
+        <li>Peace building program for youths;</li>
+        <li>Income Generation Activities through local resources and possibility;</li>
+        <li>Rights advocacy and facilitation on protective measures;</li>
+        <li>Facilitation of access to social support for vulnerable groups;</li>
+        <li>Dispute settlement facilitation and access to justice;</li>
+        <li>Child protection;</li>
+        <li>Social mobilization.</li>
+  </ul>
 </div>
 
 <!-- Contact Section -->
