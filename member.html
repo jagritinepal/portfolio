@@ -130,6 +130,7 @@ body, html {
       <a href="team.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> REPRESENTATIVES</a>
       <a href="member.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> MEMBERS</a>
       <a href="download.html" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> DOWNLOADS</a>
+      <a href="news.html" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> NOTICES</a>
       <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
@@ -148,6 +149,7 @@ body, html {
   <a href="team.html" onclick="w3_close()" class="w3-bar-item w3-button">Repressentatives</a>
   <a href="member.html" onclick="w3_close()" class="w3-bar-item w3-button">Members</a>
   <a href="download.html" onclick="w3_close()" class="w3-bar-item w3-button">Downloads</a>
+  <a href="news.html" onclick="w3_close()" class="w3-bar-item w3-button">News</a>
   <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
 </nav>
     <!-- Header with logo and theme image -->
@@ -220,36 +222,38 @@ body, html {
 </style>
 <body>
 
-<h1 class="w3-left"; style="color:blue";>संस्थाका सदस्यहरुको विवरण (List of Members)</h1><br>
-  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="सदस्य खोजी गर्नुहोस्.. Search Members" title="Type in a name">
+<h1 class="w3-left"; style="color:blue";>List of Members</h1><br>
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search Members" title="Type in a name">
 <table id="myTable">
 <tbody>
   <tr class="header">
-<th style="width:60%;">सदस्यहरुको नाम<br>Name of Members</th>
-<th style="width:40%">सदस्ताको प्रकार<br>Nature of Membership</th>
-<tr><td>माधव प्रसाद भट्टराई<br>(Madhav Prasad Bhattarai)</td><td>आजिवन सदस्य<br>(Life Member)</tr>
-<tr><td>रबिन्द्र भट्टराई<br>(Rabindra Bhattarai)</td><td>आजिवन सदस्य<br>(Life Member)</tr>
-<tr><td>भिम महत<br>(Bhim Mahat)</td><td>आजिवन सदस्य<br>(Life Member)</tr>
-<tr><td>लक्ष्मी घिमिरे<br>(Laxmi Ghimire)</td><td>आजिवन सदस्य<br>(Life Member)</tr>
-<tr><td>गोपाल पौड्याल<br>(Gopal Poudyal)</td><td>आजिवन सदस्य<br>(Life Member)</tr>
-<tr><td>बालकृष्ण भट्टराई<br>(Balkrishna Bhattarai)</td><td>आजिवन सदस्य<br>(Life Member)</tr>
-<tr><td>नरेन्द्र खड्का<br>(Narendra Khadka)</td><td>आजिवन सदस्य<br>(Life Member)</tr>
-<tr><td>ईश्वर कुमार सुवेदी<br>(Ishwor Kumar Subedi)</td><td>साधारण सदस्य<br>(General Member)</tr>
-<tr><td>रिता घिमिरे<br>(Rita Ghimire)</td><td>साधारण सदस्य<br>(General Member)</tr>
-<tr><td>सुनिता सुवेदी<br>(Sunita Subedi)</td><td>साधारण सदस्य<br>(General Member)</tr>
-<tr><td>चेतनाथ भट्टराई<br>(Chetanath Bhattarai)</td><td>साधारण सदस्य<br>(General Member)</tr>
-<tr><td>होमकुमारी भट्टराई<br>(Homkumari Bhattarai)</td><td>साधारण सदस्य<br>(General Member)</tr>
-<tr><td>प्रेम भट्टराई<br>(Prem Bhattarai)</td><td>साधारण सदस्य<br>(General Member)</tr>
-<tr><td>भुवन सुवेदी<br>(Bhuwan Subedi)</td><td>साधारण सदस्य<br>(General Member)</tr>
-<tr><td>रिता थापा<br>(Rita Thapa)</td><td>साधारण सदस्य<br>(General Member)</tr>
-<tr><td>शोभा थापा<br>(Shova Thapa)</td><td>साधारण सदस्य<br>(General Member)</tr>
-<tr><td>राधिका चौहान<br>(Radhika Chauhan)</td><td>साधारण सदस्य<br>(General Member)</tr>
-<tr><td>उमाराम पाण्डे<br>(Umaram Pandey)</td><td>साधारण सदस्य<br>(General Member)</tr>
-<tr><td>सानु दास<br>(Sanu Das)</td><td>साधारण सदस्य<br>(General Member)</tr>
-<tr><td>लोचन भट्टराई<br>(Lochan Bhattarai)</td><td>साधारण सदस्य<br>(General Member)</tr>
-<tr><td>कौशिला राई<br>(Kaushila Rai)</td><td>साधारण सदस्य<br>(General Member)</tr>
-<tr><td>भिम तामाङ्ग (साङ्गतान)<br>(Bhim Tamang (Sangtan))</td><td>साधारण सदस्य<br>(General Member)</tr>
-<tr><td>कुन्ती बस्नेत (गुरुङ्ग)<br>(Kunti Basnet (Gurung))</td><td>साधारण सदस्य<br>(General Member)</tr>
+<th style="width:60%;">Name of Members</th>
+<th style="width:40%">Nature of Membership</th>
+</tr>
+<tr><td>Madhav Prasad Bhattarai</td><td>Life Member</tr>
+<tr><td>Rabindra Bhattarai</td><td>Life Member</tr>
+<tr><td>Bhim Mahat</td><td>Life Member</tr>
+<tr><td>Laxmi Ghimire</td><td>Life Member</tr>
+<tr><td>Gopal Poudyal</td><td>Life Member</tr>
+<tr><td>Balkrishna Bhattarai</td><td>Life Member</tr>
+<tr><td>Narendra Khadka</td><td>Life Member</tr>
+<tr><td>Ishwor Kumar Subedi</td><td>General Member</tr>
+<tr><td>Rita Ghimire</td><td>General Member</tr>
+<tr><td>Sunita Subedi</td><td>General Member</tr>
+<tr><td>Chetanath Bhattarai</td><td>General Member</tr>
+<tr><td>Homkumari Bhattarai</td><td>General Member</tr>
+<tr><td>Prem Bhattarai</td><td>General Member</tr>
+<tr><td>Bhuwan Subedi</td><td>General Member</tr>
+<tr><td>Rita Thapa</td><td>General Member</tr>
+<tr><td>Shova Thapa</td><td>General Member</tr>
+<tr><td>Radhika Chauhan</td><td>General Member</tr>
+<tr><td>Umaram Pandey</td><td>General Member</tr>
+<tr><td>Sanu Das</td><td>General Member</tr>
+<tr><td>Lochan Bhattarai</td><td>General Member</tr>
+<tr><td>Kaushila Rai</td><td>General Member</tr>
+<tr><td>Bhim Tamang (Sangtan)</td><td>General Member</tr>
+<tr><td>Kunti Basnet (Gurung)</td><td>General Member</tr>
+
 </table>
 
 <script>
@@ -272,6 +276,10 @@ function myFunction() {
   }
 }
 </script>
+
+  </div>
+</div>
+
 	</div>
 </div>
 </div>
